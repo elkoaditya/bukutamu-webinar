@@ -1,0 +1,19 @@
+name: CD
+on:
+  push:
+    branches: [ master ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "139.59.227.199"
+        uses: appleboy/ssh-action@master
+        with:
+          host: '167.99.70.100'
+          username: ${{ secrets.USERNAME }}
+          PASSWORD: ${{ secrets.PASSWORD }}
+          port: 22
+          script: |
+            cd /home/guest.afresto.id/bukutamu-webinar
+            git pull git@github.com:elkoaditya/bukutamu-webinar.git
+            git reset --hard
