@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="{{ asset('ico') }}/assets/css/style-azure.css?ver=200">
     <!-- Extra CSS -->
     <link rel="stylesheet" href="{{ asset('ico') }}/assets/css/theme.css?ver=200">
+    @if(Session::has('download.in.the.next.request'))
+        <meta http-equiv="refresh" content="5;url={{ Session::get('download.in.the.next.request') }}">
+    @endif
 </head>
 
 <body class="nk-body body-wider mode-onepage">
@@ -55,7 +58,7 @@
             @if(session()->has('message'))
                 <div>
                     <div class="alert alert-success" role="alert">
-                        Terima kasih telah mengisi buku tamu.
+                        {{ session()->get('message') }}
                     </div>
                 </div>
             @endif

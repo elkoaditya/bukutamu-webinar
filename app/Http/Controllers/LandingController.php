@@ -8,6 +8,8 @@ use App\Models\Webinar;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\Validator;
 
 class LandingController extends Controller
@@ -45,7 +47,9 @@ class LandingController extends Controller
                 'from' => "register",
             ]);
 //            Mail::to($create->email)->send(new Gmail($create));
-            return redirect('/')->with('message', 'Terima kasih telah mengisi buku tamu');
+//            return Storage::download('back.jpg');
+            Session::flash('download.in.the.next.request', 'back.jpg');
+            return redirect('/')->with('message', 'Terima kasih telah mengisi buku tamu, silahkan tunggu untuk mendapatkan foto yang dapat digunakan sebagai background webinar.');
         }catch (\Exception $e) {
             dd($e);
             return redirect('/')->with('error', "Maaf, email anda sudah pernah terdaftar sebelumnya.");;
