@@ -14,6 +14,6 @@ jobs:
           PASSWORD: ${{ secrets.PASSWORD }}
           port: 22
           script: |
-            cd /home/guest.afresto.id/bukutamu-webinar
+            cd /home/guest.fresto.biz/bukutamu-webinar
             git pull git@github.com:elkoaditya/bukutamu-webinar.git
             git reset --hard
