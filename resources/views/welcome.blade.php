@@ -406,7 +406,7 @@
 
                                     <div class="field-item animated" data-animate="fadeInUp" data-delay=".8">
                                         <input name="namaKepalaSekolah" type="text" class="input-line required" required>
-                                        <label class="field-label field-label-line">Nama Anda</label>
+                                        <label class="field-label field-label-line">Nama Lengkap</label>
                                     </div>
 
 
@@ -423,7 +423,7 @@
 
                                     <div class="field-item animated" data-animate="fadeInUp" data-delay=".7">
                                         <input name="namaSekolah" type="text" class="input-line required" required>
-                                        <label class="field-label field-label-line">Nama sekolah</label>
+                                        <label class="field-label field-label-line">Nama sekolah / Instansi  </label>
                                     </div>
 {{--                                    <div class="field-item animated" data-animate="fadeInUp" data-delay=".8">--}}
 {{--                                        <input name="alamatSekolah" type="text" class="input-line required" required>--}}
