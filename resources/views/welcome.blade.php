@@ -9,7 +9,7 @@
     <!-- Fav Icon  -->
     <link rel="shortcut icon" href="images/favicon.png">
     <!-- Site Title  -->
-    <title>Webinar Digitalisasi | Afresto System Indonesia</title>
+    <title>Buku Tamu | Afresto System Indonesia</title>
     <!-- Bundle and Base CSS -->
     <link rel="stylesheet" href="{{ asset('ico') }}/assets/css/vendor.bundle.css?ver=200">
     <link rel="stylesheet" href="{{ asset('ico') }}/assets/css/style-azure.css?ver=200">
@@ -371,38 +371,38 @@
             <div class="container">
                 <div class="section-head section-head-s3 wide-auto-sm text-center">
                     <h6 class="title title-xs title-xs-s3 tc-primary animated" data-animate="fadeInUp" data-delay=".1">Buku Tamu</h6>
-                    <h2 class="title animated" data-animate="fadeInUp" data-delay=".2">Daftar Hadir Webinar</h2>
+                    <h2 class="title animated" data-animate="fadeInUp" data-delay=".2">Daftar Hadir </h2>
                 </div>
                 <!-- Block @s -->
                 <div class="nk-block block-contact" id="contact">
                     <div class="row justify-content-center gutter-vr-30px">
-                        <div class="col-lg-4">
-                            <div class="pdt-s">
-                                <div class="d-flex flex-column h-100">
-                                    <p class="animated" data-animate="fadeInUp" data-delay=".3">Apa bila ada anda memiliki pertanyaan, kami akan menjawaban pertanyaan anda secepat mungkin.</p>
-                                    <ul class="contact-list contact-list-s3">
-                                        {{--                                        <li class="animated" data-animate="fadeInUp" data-delay=".4">--}}
-                                        {{--                                            <em class="contact-icon contact-icon-s3 fas fa-phone"></em>--}}
-                                        {{--                                            <div class="contact-text">--}}
-                                        {{--                                                <span>+44 0123 4567</span>--}}
-                                        {{--                                            </div>--}}
-                                        {{--                                        </li>--}}
-                                        <li class="animated" data-animate="fadeInUp" data-delay=".5">
-                                            <em class="contact-icon contact-icon-s3 fas fa-envelope"></em>
-                                            <div class="contact-text">
-                                                <span>office@afresto.id</span>
-                                            </div>
-                                        </li>
-                                        {{--                                        <li class="animated" data-animate="fadeInUp" data-delay=".6">--}}
-                                        {{--                                            <em class="contact-icon contact-icon-s3 fas fa-paper-plane"></em>--}}
-                                        {{--                                            <div class="contact-text">--}}
-                                        {{--                                                <span>Join us on Telegram</span>--}}
-                                        {{--                                            </div>--}}
-                                        {{--                                        </li>--}}
-                                    </ul>
-                                </div>
-                            </div>
-                        </div><!-- .col -->
+{{--                        <div class="col-lg-4">--}}
+{{--                            <div class="pdt-s">--}}
+{{--                                <div class="d-flex flex-column h-100">--}}
+{{--                                    <p class="animated" data-animate="fadeInUp" data-delay=".3">Apa bila ada anda memiliki pertanyaan, kami akan menjawaban pertanyaan anda secepat mungkin.</p>--}}
+{{--                                    <ul class="contact-list contact-list-s3">--}}
+{{--                                        --}}{{--                                        <li class="animated" data-animate="fadeInUp" data-delay=".4">--}}
+{{--                                        --}}{{--                                            <em class="contact-icon contact-icon-s3 fas fa-phone"></em>--}}
+{{--                                        --}}{{--                                            <div class="contact-text">--}}
+{{--                                        --}}{{--                                                <span>+44 0123 4567</span>--}}
+{{--                                        --}}{{--                                            </div>--}}
+{{--                                        --}}{{--                                        </li>--}}
+{{--                                        <li class="animated" data-animate="fadeInUp" data-delay=".5">--}}
+{{--                                            <em class="contact-icon contact-icon-s3 fas fa-envelope"></em>--}}
+{{--                                            <div class="contact-text">--}}
+{{--                                                <span>office@afresto.id</span>--}}
+{{--                                            </div>--}}
+{{--                                        </li>--}}
+{{--                                        --}}{{--                                        <li class="animated" data-animate="fadeInUp" data-delay=".6">--}}
+{{--                                        --}}{{--                                            <em class="contact-icon contact-icon-s3 fas fa-paper-plane"></em>--}}
+{{--                                        --}}{{--                                            <div class="contact-text">--}}
+{{--                                        --}}{{--                                                <span>Join us on Telegram</span>--}}
+{{--                                        --}}{{--                                            </div>--}}
+{{--                                        --}}{{--                                        </li>--}}
+{{--                                    </ul>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div><!-- .col -->--}}
                         <div class="col-lg-6">
                             <div class="">
                                 <form id="" class="" action="/form/register" method="post">@csrf
