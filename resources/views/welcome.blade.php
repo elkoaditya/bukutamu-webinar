@@ -55,20 +55,20 @@
     {{--            </div>--}}
     {{--        </div><!-- .header-main @e -->--}}
     {{--        <!-- Banner @s -->--}}
-            @if(session()->has('message'))
-                <div>
-                    <div class="alert alert-success" role="alert">
-                        {{ session()->get('message') }}
-                    </div>
-                </div>
-            @endif
-            @if(session()->has('error'))
-                <div>
-                    <div class="alert alert-danger" role="alert">
-                        {{ session()->get('error') }}
-                    </div>
-                </div>
-            @endif
+    @if(session()->has('message'))
+        <div>
+            <div class="alert alert-success" role="alert">
+                {{ session()->get('message') }}
+            </div>
+        </div>
+    @endif
+    @if(session()->has('error'))
+        <div>
+            <div class="alert alert-danger" role="alert">
+                {{ session()->get('error') }}
+            </div>
+        </div>
+    @endif
 
     {{--        <div class="header-banner bg-theme-alt">--}}
     {{--            <div class="nk-banner bg-grad-special">--}}
@@ -376,33 +376,33 @@
                 <!-- Block @s -->
                 <div class="nk-block block-contact" id="contact">
                     <div class="row justify-content-center gutter-vr-30px">
-{{--                        <div class="col-lg-4">--}}
-{{--                            <div class="pdt-s">--}}
-{{--                                <div class="d-flex flex-column h-100">--}}
-{{--                                    <p class="animated" data-animate="fadeInUp" data-delay=".3">Apa bila ada anda memiliki pertanyaan, kami akan menjawaban pertanyaan anda secepat mungkin.</p>--}}
-{{--                                    <ul class="contact-list contact-list-s3">--}}
-{{--                                        --}}{{--                                        <li class="animated" data-animate="fadeInUp" data-delay=".4">--}}
-{{--                                        --}}{{--                                            <em class="contact-icon contact-icon-s3 fas fa-phone"></em>--}}
-{{--                                        --}}{{--                                            <div class="contact-text">--}}
-{{--                                        --}}{{--                                                <span>+44 0123 4567</span>--}}
-{{--                                        --}}{{--                                            </div>--}}
-{{--                                        --}}{{--                                        </li>--}}
-{{--                                        <li class="animated" data-animate="fadeInUp" data-delay=".5">--}}
-{{--                                            <em class="contact-icon contact-icon-s3 fas fa-envelope"></em>--}}
-{{--                                            <div class="contact-text">--}}
-{{--                                                <span>office@afresto.id</span>--}}
-{{--                                            </div>--}}
-{{--                                        </li>--}}
-{{--                                        --}}{{--                                        <li class="animated" data-animate="fadeInUp" data-delay=".6">--}}
-{{--                                        --}}{{--                                            <em class="contact-icon contact-icon-s3 fas fa-paper-plane"></em>--}}
-{{--                                        --}}{{--                                            <div class="contact-text">--}}
-{{--                                        --}}{{--                                                <span>Join us on Telegram</span>--}}
-{{--                                        --}}{{--                                            </div>--}}
-{{--                                        --}}{{--                                        </li>--}}
-{{--                                    </ul>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                        </div><!-- .col -->--}}
+                        {{--                        <div class="col-lg-4">--}}
+                        {{--                            <div class="pdt-s">--}}
+                        {{--                                <div class="d-flex flex-column h-100">--}}
+                        {{--                                    <p class="animated" data-animate="fadeInUp" data-delay=".3">Apa bila ada anda memiliki pertanyaan, kami akan menjawaban pertanyaan anda secepat mungkin.</p>--}}
+                        {{--                                    <ul class="contact-list contact-list-s3">--}}
+                        {{--                                        --}}{{--                                        <li class="animated" data-animate="fadeInUp" data-delay=".4">--}}
+                        {{--                                        --}}{{--                                            <em class="contact-icon contact-icon-s3 fas fa-phone"></em>--}}
+                        {{--                                        --}}{{--                                            <div class="contact-text">--}}
+                        {{--                                        --}}{{--                                                <span>+44 0123 4567</span>--}}
+                        {{--                                        --}}{{--                                            </div>--}}
+                        {{--                                        --}}{{--                                        </li>--}}
+                        {{--                                        <li class="animated" data-animate="fadeInUp" data-delay=".5">--}}
+                        {{--                                            <em class="contact-icon contact-icon-s3 fas fa-envelope"></em>--}}
+                        {{--                                            <div class="contact-text">--}}
+                        {{--                                                <span>office@afresto.id</span>--}}
+                        {{--                                            </div>--}}
+                        {{--                                        </li>--}}
+                        {{--                                        --}}{{--                                        <li class="animated" data-animate="fadeInUp" data-delay=".6">--}}
+                        {{--                                        --}}{{--                                            <em class="contact-icon contact-icon-s3 fas fa-paper-plane"></em>--}}
+                        {{--                                        --}}{{--                                            <div class="contact-text">--}}
+                        {{--                                        --}}{{--                                                <span>Join us on Telegram</span>--}}
+                        {{--                                        --}}{{--                                            </div>--}}
+                        {{--                                        --}}{{--                                        </li>--}}
+                        {{--                                    </ul>--}}
+                        {{--                                </div>--}}
+                        {{--                            </div>--}}
+                        {{--                        </div><!-- .col -->--}}
                         <div class="col-lg-6">
                             <div class="">
                                 <form id="" class="" action="/form/register" method="post">@csrf
@@ -419,35 +419,35 @@
                                     </div>
 
 
-{{--                                    <div class="field-item animated" data-animate="fadeInUp" data-delay=".8">--}}
-{{--                                        <input name="email" type="email" class="input-line required email" required>--}}
-{{--                                        <label class="field-label field-label-line">Email Anda</label>--}}
-{{--                                    </div>--}}
+                                    {{--                                    <div class="field-item animated" data-animate="fadeInUp" data-delay=".8">--}}
+                                    {{--                                        <input name="email" type="email" class="input-line required email" required>--}}
+                                    {{--                                        <label class="field-label field-label-line">Email Anda</label>--}}
+                                    {{--                                    </div>--}}
 
                                     <div class="field-item animated" data-animate="fadeInUp" data-delay=".7">
                                         <input name="namaSekolah" type="text" class="input-line required" required>
                                         <label class="field-label field-label-line">Nama sekolah / Instansi  </label>
                                     </div>
-{{--                                    <div class="field-item animated" data-animate="fadeInUp" data-delay=".8">--}}
-{{--                                        <input name="alamatSekolah" type="text" class="input-line required" required>--}}
-{{--                                        <label class="field-label field-label-line">Alamat sekolah</label>--}}
-{{--                                    </div>--}}
-{{--                                    <div class="field-item animated" data-animate="fadeInUp" data-delay=".8">--}}
-{{--                                        <label for="task-tag" class="form-label d-block">Kabupaten / Kota</label>--}}
-{{--                                        <select class="form-select task-tag" id="task-tag" name="kabupaten" >--}}
-{{--                                            @foreach($kabupatens as $kabupaten)--}}
-{{--                                                <option value="{{$kabupaten->value}}">{{$kabupaten->value}}</option>--}}
-{{--                                            @endforeach--}}
-{{--                                        </select>--}}
-{{--                                    </div>--}}
-{{--                                    <div class="field-item animated" data-animate="fadeInUp" data-delay=".8">--}}
-{{--                                        <label for="task-tag" class="form-label d-block">Jenjang</label>--}}
-{{--                                        <select class="form-select task-tag" id="task-tag" name="jenjang" >--}}
-{{--                                            <option value="sma">SMA ( Sekolah Menengah Atas )</option>--}}
-{{--                                            <option value="smk">SMK ( Sekolah Menengah Kejuruan )</option>--}}
-{{--                                            <option value="slb">SLB ( Sekolah Luar Biasa )</option>--}}
-{{--                                        </select>--}}
-{{--                                    </div>--}}
+                                    {{--                                    <div class="field-item animated" data-animate="fadeInUp" data-delay=".8">--}}
+                                    {{--                                        <input name="alamatSekolah" type="text" class="input-line required" required>--}}
+                                    {{--                                        <label class="field-label field-label-line">Alamat sekolah</label>--}}
+                                    {{--                                    </div>--}}
+                                    {{--                                    <div class="field-item animated" data-animate="fadeInUp" data-delay=".8">--}}
+                                    {{--                                        <label for="task-tag" class="form-label d-block">Kabupaten / Kota</label>--}}
+                                    {{--                                        <select class="form-select task-tag" id="task-tag" name="kabupaten" >--}}
+                                    {{--                                            @foreach($kabupatens as $kabupaten)--}}
+                                    {{--                                                <option value="{{$kabupaten->value}}">{{$kabupaten->value}}</option>--}}
+                                    {{--                                            @endforeach--}}
+                                    {{--                                        </select>--}}
+                                    {{--                                    </div>--}}
+                                    {{--                                    <div class="field-item animated" data-animate="fadeInUp" data-delay=".8">--}}
+                                    {{--                                        <label for="task-tag" class="form-label d-block">Jenjang</label>--}}
+                                    {{--                                        <select class="form-select task-tag" id="task-tag" name="jenjang" >--}}
+                                    {{--                                            <option value="sma">SMA ( Sekolah Menengah Atas )</option>--}}
+                                    {{--                                            <option value="smk">SMK ( Sekolah Menengah Kejuruan )</option>--}}
+                                    {{--                                            <option value="slb">SLB ( Sekolah Luar Biasa )</option>--}}
+                                    {{--                                        </select>--}}
+                                    {{--                                    </div>--}}
 
                                     <div class="row">
                                         <div class="col-sm-4 animated" data-animate="fadeInUp" data-delay="1">
