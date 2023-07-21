@@ -143,6 +143,9 @@
                                                                 <span class="badge rounded-pill badge-light-secondary">{{$webinar->kabupaten}}</span>
                                                             </div>
                                                             <div class="badge-wrapper me-1">
+                                                                <span class="badge rounded-pill badge-light-info">{{$webinar->jabatan}}</span>
+                                                            </div>
+                                                            <div class="badge-wrapper me-1">
                                                                 @if($webinar->from == "admin")
                                                                     <span class="badge rounded-pill badge-light-primary">Admin</span>
                                                                 @else

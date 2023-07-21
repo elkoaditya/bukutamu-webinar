@@ -17,3 +17,4 @@ jobs:
             cd /home/guest.fresto.biz/bukutamu-webinar
             git pull git@github.com:elkoaditya/bukutamu-webinar.git
             git reset --hard
+            php artisan migrate

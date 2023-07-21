@@ -17,5 +17,6 @@ class Webinar extends Model
       'from',
       'jenjang',
       'kabupaten',
+      'jabatan'
     ];
 }

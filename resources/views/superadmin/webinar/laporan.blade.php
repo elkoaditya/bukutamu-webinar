@@ -39,6 +39,7 @@
                 <th>Alamat Sekolah</th>
                 <th>Kabupaten</th>
                 <th>Nama Kepala Sekolah</th>
+                <th>Jabatan</th>
                 <th>No Telp Kepala Sekolah</th>
                 <th>Email</th>
                 <th>Daftar</th>
@@ -52,6 +53,7 @@
                     <td>{{$webinar->alamatSekolah}}</td>
                     <td>{{$webinar->kabupaten}}</td>
                     <td>{{$webinar->namaKepalaSekolah}}</td>
+                    <td>{{$webinar->jabatan}}</td>
                     <td>{{$webinar->notelpKapsek}}</td>
                     <td>{{$webinar->email}}</td>
                     <td>{{\Carbon\Carbon::parse($webinar->created_at)->toFormattedDateString()}}</td>

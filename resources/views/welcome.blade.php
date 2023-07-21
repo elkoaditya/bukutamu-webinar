@@ -412,6 +412,11 @@
                                         <label class="field-label field-label-line">Nama Lengkap</label>
                                     </div>
 
+                                    <div class="field-item animated" data-animate="fadeInUp" data-delay=".8">
+                                        <input name="jabatan" type="text" class="input-line required" required>
+                                        <label class="field-label field-label-line">Jabatan</label>
+                                    </div>
+
 
                                     <div class="field-item animated" data-animate="fadeInUp" data-delay=".8">
                                         <input name="notelpKapsek" type="text" class="input-line required" required>

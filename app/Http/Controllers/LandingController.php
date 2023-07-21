@@ -28,6 +28,7 @@ class LandingController extends Controller
     public function register(Request $request){
         $validator = Validator::make($request->all(), [
             'namaSekolah' => 'string | required',
+            'jabatan' => 'string | required',
 //            'alamatSekolah' => 'string | required',
             'namaKepalaSekolah' => 'string | required',
             'notelpKapsek' => 'string | required',
@@ -44,6 +45,7 @@ class LandingController extends Controller
                 'namaSekolah' => $request->namaSekolah,
                 'namaKepalaSekolah' => $request->namaKepalaSekolah,
                 'notelpKapsek' => $request->notelpKapsek,
+                'jabatan' => $request->jabatan,
                 'from' => "register",
             ]);
 //            Mail::to($create->email)->send(new Gmail($create));
