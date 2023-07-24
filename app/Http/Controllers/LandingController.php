@@ -52,7 +52,7 @@ class LandingController extends Controller
 //            Mail::to($create->email)->send(new Gmail($create));
 //            return Storage::download('back.jpg');
             Session::flash('download.in.the.next.request', 'back.jpg');
-            return redirect('/')->with('message', 'Terima kasih telah mengisi buku tamu, silahkan tunggu untuk mendapatkan foto yang dapat digunakan sebagai background webinar.');
+            return redirect('/')->with('message', 'Terima kasih telah mengisi buku tamu.');
         }catch (\Exception $e) {
             dd($e);
             return redirect('/')->with('error', "Maaf, email anda sudah pernah terdaftar sebelumnya.");;
