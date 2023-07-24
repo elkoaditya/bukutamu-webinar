@@ -34,7 +34,7 @@ class LandingController extends Controller
             'notelpKapsek' => 'string | required',
 //            'jenjang' => 'string | required',
 //            'kabupaten' => 'string | required',
-//            'email' => 'email | required',
+            'email' => 'email | required',
         ]);
         if ($validator->fails()) {
             dd($validator->errors());
@@ -47,6 +47,7 @@ class LandingController extends Controller
                 'notelpKapsek' => $request->notelpKapsek,
                 'jabatan' => $request->jabatan,
                 'from' => "register",
+                'email' => $request->email,
             ]);
 //            Mail::to($create->email)->send(new Gmail($create));
 //            return Storage::download('back.jpg');

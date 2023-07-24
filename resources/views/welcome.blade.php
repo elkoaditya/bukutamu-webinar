@@ -15,9 +15,9 @@
     <link rel="stylesheet" href="{{ asset('ico') }}/assets/css/style-azure.css?ver=200">
     <!-- Extra CSS -->
     <link rel="stylesheet" href="{{ asset('ico') }}/assets/css/theme.css?ver=200">
-    @if(Session::has('download.in.the.next.request'))
-        <meta http-equiv="refresh" content="5;url={{ Session::get('download.in.the.next.request') }}">
-    @endif
+{{--    @if(Session::has('download.in.the.next.request'))--}}
+{{--        <meta http-equiv="refresh" content="5;url={{ Session::get('download.in.the.next.request') }}">--}}
+{{--    @endif--}}
 </head>
 
 <body class="nk-body body-wider mode-onepage">
@@ -424,10 +424,10 @@
                                     </div>
 
 
-{{--                                    <div class="field-item animated" data-animate="fadeInUp" data-delay=".8">--}}
-{{--                                        <input name="email" type="email" class="input-line required email" required>--}}
-{{--                                        <label class="field-label field-label-line">Email Anda</label>--}}
-{{--                                    </div>--}}
+                                    <div class="field-item animated" data-animate="fadeInUp" data-delay=".8">
+                                        <input name="email" type="email" class="input-line required email" required>
+                                        <label class="field-label field-label-line">Email Anda</label>
+                                    </div>
 
                                     <div class="field-item animated" data-animate="fadeInUp" data-delay=".7">
                                         <input name="namaSekolah" type="text" class="input-line required" required>
